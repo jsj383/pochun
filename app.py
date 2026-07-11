@@ -199,7 +199,6 @@ st.set_page_config(page_title='ㅍㅊㅋㅋ',page_icon="🥠")
 
 st.title("💪 응원 문장 생성 AI")
 
-messages=pd.read_csv("message.csv",encoding="utf-8-sig")
 st.write("버튼을 누르면 AI가 새로운 응원 문장을 만들어 줍니다.")
 
 if st.button("열어재끼기"):
